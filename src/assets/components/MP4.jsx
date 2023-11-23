@@ -85,7 +85,7 @@ function MP4(props) {
           {data.error ? (
             <p>invalid input</p>
           ) : (
-            input &&
+            link &&
             !loading && (
               <div
                 className={`w-5/6 flex border-2 justify-between border-black text-center`}
